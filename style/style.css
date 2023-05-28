@@ -6,6 +6,9 @@
   --black1: #0d0e13ff;
 }
 
+a {
+  font-size: 0.8rem;
+}
 body {
   margin: 0;
   padding: 0;
@@ -30,7 +33,7 @@ body::-webkit-scrollbar {
   top: 0;
   left: 0;
   width: 100%;
-  padding: 20px 40px;
+  padding: 1rem;
   background-color: transparent;
   display: flex;
   justify-content: space-between;
@@ -39,15 +42,12 @@ body::-webkit-scrollbar {
 }
 .logo {
   display: flex;
-  justify-content: start;
-  height: 60px;
-  width: 150px;
+  width: 9rem;
 }
 .nav-right {
   display: flex;
-  gap: 40px;
+  gap: 2rem;
   font-weight: 500;
-  margin-left: 10px;
 }
 .img-cover {
   display: flex;

@@ -11,6 +11,12 @@
   --c5: #732730ff;
   --c6: #141522;
 }
+p {
+  font-size: 0.8rem;
+}
+h2 {
+  font-size: 1rem;
+}
 
 body {
   margin: 0;
@@ -32,51 +38,46 @@ body::-webkit-scrollbar {
 }
 
 .header {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 20px 40px;
-  background-color: transparent;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  z-index: 1;
+  padding: 1rem;
+  font-size: 0.8rem;
 }
 .logo {
   display: flex;
-  justify-content: start;
-  height: 60px;
-  width: 150px;
+  width: 9rem;
 }
 .nav-right {
   display: flex;
-  gap: 40px;
+  gap: 2rem;
   font-weight: 500;
-  margin-left: 10px;
 }
 
 .home {
-  position: relative;
   width: 100%;
   height: 100vh;
   background-image: url("mylove.gif");
   background-position: center;
   background-repeat: no-repeat;
-  background-position-y: 70px;
-  background-position-x: 20rem;
-  background-size: 40rem;
+  background-position-y: 3rem;
+  background-position-x: 15rem;
+  background-size: 32rem;
   display: flex;
   align-items: center;
   padding: 30px 100px;
 }
-/* ----------2-CONTENT---------- */
+/* !----------2CONTENT---------- */
 .content h2 {
-  font-size: 3rem;
-  font-weight: 200;
+  font-size: 2rem;
+  font-weight: 400;
+}
+.content h3 {
+  color: var(--c4);
+  font-weight: 700;
+  font-size: 1rem;
 }
 
-.content h2 span {
+span {
   font-weight: 600;
   color: var(--c4);
   letter-spacing: 5px;
@@ -90,15 +91,12 @@ body::-webkit-scrollbar {
 
 .feature .contentft {
   background-color: var(--c1);
-  padding: 100px;
-  width: 50%;
-  min-height: 600px;
-  height: 50%;
+  padding: 5rem;
 }
 
 .heading {
   color: var(--c4);
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 600;
   margin-bottom: 20px;
 }
@@ -110,7 +108,7 @@ body::-webkit-scrollbar {
   font-size: 15px;
   margin-top: 20px;
   border: 1px solid var(--red);
-  border-radius: 10px;
+  border-radius: 3rem;
   font-weight: 400;
 }
 
@@ -130,55 +128,34 @@ body::-webkit-scrollbar {
 /* ----------3_CONTENT---------- */
 .design {
   background-color: var(--c6);
-  /* background: url(img/ryo.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; */
-  height: 1000px;
-  padding: 100px;
+  padding: 5rem;
   text-align: center;
 }
-
-.design .container-2 {
-  width: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  margin-top: 60px;
-}
-
 .serviceBx img {
-  width: 300px;
-  height: 300px;
+  width: 15rem;
 }
 .serviceBx {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-  margin-left: 550px;
-  gap: 100px;
-}
-
-/* --------------4-CONTENT------------------ */
-.music {
-  padding: 100px;
-  width: 100%;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  gap: 100px;
+  margin-top: 1rem;
+  gap: 2rem;
 }
+
+/* ?--------------music------------------ */
 
 .image-msc img {
-  width: 400px;
-  height: 400px;
-  box-shadow: 0 0 1em hsla(0, 0%, 0%, 0.75);
+  width: 25rem;
 }
-
-.p {
-  background-color: black;
-  font-size: 1px;
+.music {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 5rem;
+}
+.content-msc {
+  padding: 5rem;
+}
+.image-msc {
+  display: flex;
+  align-items: center;
+  margin-right: 2rem;
 }
