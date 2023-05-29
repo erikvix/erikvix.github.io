@@ -61,19 +61,22 @@ body::-webkit-scrollbar {
 }
 
 .music__grid {
+  padding: 5rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
 
 .music__title {
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 600;
   margin-top: 1rem;
+  text-align: center;
 }
 .music__p {
-  font-size: 1rem;
+  font-size: 0.7rem;
 }
 .music__item {
+  /* border: 1px solid red; */
   margin-top: 2rem;
   display: flex;
   flex-direction: column;
@@ -81,5 +84,5 @@ body::-webkit-scrollbar {
   justify-content: center;
 }
 .music__img {
-  width: 15rem;
+  width: 12rem;
 }
