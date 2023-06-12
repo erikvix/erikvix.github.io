@@ -99,11 +99,11 @@ ul{
   border-radius: 3rem;
   font-size: 1rem;
   padding: 0.5em 1em;
-  box-shadow: 0 11px 20px rgba(215, 29, 54, 0.5), 0 5px 6px
-  rgba(215, 29, 54, 0.5), 0 0 100px var(--main-color);
+  box-shadow: 0 2px 10px rgba(215, 29, 54, 0.5), 0 5px 6px
+  rgba(215, 29, 54, 0.5), 0 0 5px var(--main-color);
 }
 .btn:hover{
-    font-size: var(--size-xl);
+    scale: 1.2;
 }
 
 .container {
@@ -194,7 +194,7 @@ ul{
     font-size: var(--size-base);
 }
 
-/* ! */
+/* !portfolio */
 
 .about{
 
@@ -417,9 +417,57 @@ ul{
   gap: 1rem;
 }
 
+/*?  */
+.dk__content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+.dk__img{
+  width: 20rem;
+}
+.dk__box{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.dk__dk{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.dk__other{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem; 
+}
+.dk__btn{
+  display: inline;
+  align-items: center;
+  justify-content: center;
+  width: max-content;
+  transition: ease all 0.5s;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  letter-spacing: -0.05em;
+  color: var(--default);
+  background-color: var(--main-color);
+  border-radius: 3rem;
+  font-size: 1rem;
+  padding: 0.5em 1em 0.8em;
+  box-shadow: 0 2px 10px rgba(215, 29, 54, 0.5), 0 5px 6px
+  rgba(215, 29, 54, 0.5), 0 0 5px var(--main-color);
+}
+.dk__btn:hover{
+  scale: 1.2;
+}
 
 
-
+.cv__icon{
+  font-size: 1.2rem;
+  margin-top: 0.4rem;
+}
 /* xs */
 @media (min-width: 475px) {
   .container {
@@ -474,6 +522,11 @@ ul{
     width: 22rem;
     height: 15rem;
 }
+.dk__content{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
 }
 
 /* lg */
@@ -495,6 +548,7 @@ ul{
     margin-top: 2rem;
     gap: 1rem;
   }
+  
 
 }
 
